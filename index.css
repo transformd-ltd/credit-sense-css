@@ -93,6 +93,90 @@ body.ng-scope {
   box-shadow: none;
 }
 
+
+#ApplicationPage .btn {
+  font-size: 16px;
+  line-height: 1.5;
+  border-radius: 6px;
+  background-image: none;
+  box-shadow: 0 2px 0 rgba(15, 23, 42, 0.02);
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  border-color: #d9d9d9;
+  border-bottom-color: #d9d9d9;
+  text-shadow: none;
+  color: rgba(15, 23, 42, 0.88);
+		height: auto;
+}
+
+#ApplicationPage .btn {
+  font-size: 16px;
+  line-height: 1.5;
+  border-radius: 6px;
+  background-image: none;
+  box-shadow: 0 2px 0 rgba(15, 23, 42, 0.02);
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  border-color: #d9d9d9;
+  border-bottom-color: #d9d9d9;
+  text-shadow: none;
+  color: rgba(15, 23, 42, 0.88);
+		height: auto;
+}
+
+
+#ApplicationPage .big-button {
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#ApplicationPage .btn-success{
+	font-size: 16px;
+  line-height: 1.5;
+  border-radius: 6px;
+  background-image: none;
+  box-shadow: 0 2px 0 rgba(15, 23, 42, 0.02);
+  background-color: #fff;
+  border: 1px solid #5059ff;
+  border-color: #5059ff;
+  border-bottom-color: #5059ff;
+  text-shadow: none;
+  color: #5059ff;
+		height: auto;
+}
+
+#ApplicationPage .btn-link{
+	font-size: 16px;
+  line-height: 1.5;
+  border-radius: 6px;
+  background-image: none;
+  box-shadow: 0 2px 0 rgba(15, 23, 42, 0.02);
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  border-color: #d9d9d9;
+  border-bottom-color: #d9d9d9;
+  text-shadow: none;
+  color: rgba(15, 23, 42, 0.88);
+		height: auto;
+}
+
+#ApplicationPage .btn-inverse{
+		font-size: 16px;
+  line-height: 1.5;
+  border-radius: 6px;
+  background-image: none;
+  box-shadow: 0 2px 0 rgba(15, 23, 42, 0.02);
+  background-color: #5059ff;
+  border: 1px solid #5059ff;
+  border-color: #5059ff;
+  border-bottom-color: #5059ff;
+  text-shadow: none;
+  color: #fff;
+		height: auto;
+}
+
 #BankSelect .btn {
   font-size: 16px;
   line-height: 1.5;
@@ -144,6 +228,7 @@ font-size: 16px;
   width: 100% !important;
   margin-left: 0 !important;
   margin-right: 0 !important;
+	margin-bottom: 0 !important;
   display: flex;
   flex-direction: row;
   gap: 16px;
@@ -151,8 +236,26 @@ font-size: 16px;
   justify-content: flex-start;
 }
 
+#centrelinkLogin .page-header + div{
+	max-width: 100% !important; /* Overrides a specific inline style */
+  width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+	margin-bottom: 0 !important;
+  display: flex;
+  flex-direction: column;
 
-#Terms .loading + div{
+}
+#centrelinkLogin  label{
+	font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#Terms #loading + div{
   max-width: 100% !important; /* Overrides a specific inline style */
   width: 100% !important;
   margin-left: 0 !important;
@@ -162,6 +265,14 @@ font-size: 16px;
   gap: 16px;
   align-items: center;
   justify-content: flex-start;
+}
+
+.BankResultLabel .icon-ok{
+	margin-top: 2px!important;
+}
+
+#LoginStatusHeader {
+	 color: rgba(15, 23, 42, 0.88)!important;
 }
 
 #Terms .big-button, #Q-Benefits .big-button {
@@ -218,14 +329,14 @@ font-size: 16px;
 
 #BankSelect .input-append .bank-select-label {
   font-size: 14px;
-  border-radius: 0 6px 6px 0;
+  border-radius: 0 ;
   line-height: 20px;
 	margin-left: 0;
 }
 
 #BankSelect .input-append span .bank-select-label {
   font-size: 14px;
-  border-radius: 6px 0 0 6px;
+  border-radius: 0;
 }
 #BankSelect .input-append,
 #BankSelect .input-prepend {
