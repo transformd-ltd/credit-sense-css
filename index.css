@@ -12,10 +12,60 @@ body.ng-scope {
   line-height: 1.3636363636363635;
 }
 
+#BankCredentials .big-button {
+  font-size: 16px;
+  line-height: 1.5;
+  border-radius: 6px;
+  background-image: none;
+  box-shadow: 0 2px 0 rgba(15, 23, 42, 0.02);
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  border-color: #d9d9d9;
+  border-bottom-color: #d9d9d9;
+  text-shadow: none;
+  color: rgba(15, 23, 42, 0.88);
+}
+
+#BankCredentials .btn-success:hover,
+#BankCredentials .btn-success:focus,
+#BankCredentials .btn-success:active,
+#BankCredentials .btn-success.active,
+#BankCredentials .btn-success.disabled,
+#BankCredentials .btn-success[disabled] {
+  color: #ffffff;
+  background-color: #5059ff;
+}
+
+
+#BankCredentials .btn-inverse {
+	font-size: 16px;
+  line-height: 1.5;
+  border-radius: 6px;
+  background-image: none;
+  box-shadow: 0 2px 0 rgba(15, 23, 42, 0.02);
+  background-color: #fff;
+  border: 1px solid #5059ff;
+  border-color: #5059ff;
+  border-bottom-color: #5059ff;
+  text-shadow: none;
+  color: #5059ff;
+}
+
+#bankdetails + div {
+  max-width: 100% !important; /* Overrides a specific inline style */
+  width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+}
 
 #main {
-	margin-right: 0;
-	margin-left: 0;
+  margin-right: 0;
+  margin-left: 0;
 }
 #BankSelect .input-append,
 #BankSelect .input-append .add-on,
@@ -32,7 +82,7 @@ body.ng-scope {
   border-radius: 6px;
   background-image: none;
   box-shadow: 0 2px 0 rgba(15, 23, 42, 0.02);
-	background-color: #fff;
+  background-color: #fff;
   border: 1px solid #d9d9d9;
   border-color: #d9d9d9;
   border-bottom-color: #d9d9d9;
@@ -40,17 +90,39 @@ body.ng-scope {
   color: rgba(15, 23, 42, 0.88);
 }
 
+#BankSelect .input-append .bank-select-label {
+  font-size: 14px;
+  border-radius: 0 6px 6px 0;
+  line-height: 20px;
+}
+#BankSelect .input-append,
+#BankSelect .input-prepend {
+  margin: 0;
+}
+#BankSelect .input-append {
+  margin-left: 2px;
+}
+
+#ui-id-1 {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 300;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 #BankSelect .bank-select {
-    font-size: 18px !important;
-	font-weight: 300;
-    line-height: 1.5 !important;
-    display: block;
-    width: 100%!important;
-    min-height: 30px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    padding: 0 33px!important;
+  font-size: 18px !important;
+  font-weight: 300;
+  line-height: 1.5 !important;
+  display: block;
+  width: 100% !important;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 33px !important;
 }
 
 #ApplicationPage textarea,
